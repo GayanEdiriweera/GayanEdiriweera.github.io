@@ -104,9 +104,9 @@ to
 
 # Specify the Graphics Plugin
 
-Before running, we have to specify the graphics plugin to use by running one of the following commands
+Before running, we have to specify the graphics plugin to use by running one of the following commands:
 
-adb shell setprop debug.xr.graphicsPlugin OpenGLES
+adb shell setprop debug.xr.graphicsPlugin OpenGLES  
 adb shell setprop debug.xr.graphicsPlugin Vulkan
 
 # Run the Application
