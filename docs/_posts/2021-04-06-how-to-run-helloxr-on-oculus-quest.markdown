@@ -2,7 +2,8 @@
 layout: post
 title:  "How to run hello_xr on Oculus Quest"
 date:   2021-04-06 13:46:00 +0930
-categories: code xr android
+tags: code xr android oculus quest
+categories: code
 ---
 
 This post describes how to get the OpenXR native sample application known as hello_xr running on Oculus Quest and Quest 2 hardware. 
