@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "How to run hello_xr on Oculus Quest"
 date:   2021-04-06 13:46:00 +0930
 tags: code xr android oculus quest
@@ -118,3 +119,6 @@ Congratulations! You should now be able to run the hello_xr sample application o
 [OpenXR SDK Source]: https://github.com/KhronosGroup/OpenXR-SDK-Source/
 [Oculus OpenXR Mobile SDK]: https://developer.oculus.com/downloads/package/oculus-openxr-mobile-sdk/
 
+{% if page.comments %}
+  {% include disqus.html %}
+{% endif %} 
